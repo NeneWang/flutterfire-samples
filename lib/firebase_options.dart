@@ -47,31 +47,33 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBIXxQgUPYDU2srK_UpgjiTATON5rrdMd0',
-    appId: '1:132381301913:web:f0d0a643bc90bed91eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    authDomain: 'flutterfire-samples.firebaseapp.com',
-    storageBucket: 'flutterfire-samples.appspot.com',
-    measurementId: 'G-ZK5194H8VH',
+    apiKey: 'AIzaSyBaufITJhEiUWntUZLwxfFQwlN9bixHhWc',
+    appId: '1:6011918544:web:c62108080b6f79273526d5',
+    messagingSenderId: '6011918544',
+    projectId: 'descartable-server',
+    authDomain: 'descartable-server.firebaseapp.com',
+    databaseURL: 'https://descartable-server-default-rtdb.firebaseio.com',
+    storageBucket: 'descartable-server.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCBpOCTJvcgHSO1-XDhmGNJ-paLHAAratM',
-    appId: '1:132381301913:android:2897b20e4406c6ad1eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    storageBucket: 'flutterfire-samples.appspot.com',
+    apiKey: 'AIzaSyAdYwbdlD-D0WriU2I2HRFgTmIns_DO5Ug',
+    appId: '1:6011918544:android:baff249060691b793526d5',
+    messagingSenderId: '6011918544',
+    projectId: 'descartable-server',
+    databaseURL: 'https://descartable-server-default-rtdb.firebaseio.com',
+    storageBucket: 'descartable-server.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBe_fPPDQTnEfq7ZFKa2kYAdDKkmFIsQI8',
-    appId: '1:132381301913:ios:7cf4a8a242e6a1ca1eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    storageBucket: 'flutterfire-samples.appspot.com',
-    androidClientId: '132381301913-5o1p8r5cr7hbmet7bjtltnk3hiv2eife.apps.googleusercontent.com',
-    iosClientId: '132381301913-6ho0d2nv7b9q73ibmtsjq3es09leqbt9.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAOQ7wAnZ_DE6wyB2A4IvYwkbZThXWtixQ',
+    appId: '1:6011918544:ios:f97b010484d18c223526d5',
+    messagingSenderId: '6011918544',
+    projectId: 'descartable-server',
+    databaseURL: 'https://descartable-server-default-rtdb.firebaseio.com',
+    storageBucket: 'descartable-server.appspot.com',
+    androidClientId: '6011918544-cdkj5r8f7s2tjgusja77ue9vhahbhe7q.apps.googleusercontent.com',
+    iosClientId: '6011918544-2kt1usd9lqk45ck1pgvksc22mf7o71mn.apps.googleusercontent.com',
     iosBundleId: 'com.souvikbiswas.flutterfireExamples',
   );
 }
